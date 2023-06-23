@@ -1,0 +1,765 @@
+
+body {
+    background-color: rgb(59, 58, 58);
+    font-family:serif ;
+}
+
+.nave {
+    background-color: rgb(255, 255, 255);
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+.pesq {
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    list-style: none;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.d-flex  {
+    color: rgb(0, 0, 0);
+    gap: 15px;
+    font-size: 17px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.pesquisa button {
+    border: none;
+    background-color: transparent;
+}
+
+.pesquisa img{
+    width: 20px;
+    height: 20px;
+}
+
+.carrinho button {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+.carrinho img{
+    width: 25px;
+    height: 25px;
+}
+
+#avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.sobre a {
+    text-decoration: none;
+    color: black;
+}
+
+#generos {
+    background-color: white;
+    height: 35vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.imagens div {
+    width: 20vw;
+    height: 25vh;
+}
+
+.genero1 {
+    background-image: url(../imagens/homem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.genero1:hover {
+    border: 0.01px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+
+.genero2 {
+    background-image: url(../imagens/mulher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+}
+
+.genero2:hover {
+    border: 0.01px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+
+
+
+.genero3 {
+    background-image: url(../imagens/criancas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+}
+
+.carousel-item {
+  user-select: none;
+}
+
+.genero3:hover {
+    border: 0.01px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+
+
+.genero1 button {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    border: 5px solid black;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+}
+
+.genero1 button:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+    border: 2px solid black;
+}
+
+.genero2 button {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    border: 5px solid black;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+}
+
+.genero2 button:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+    border: 2px solid black;
+}
+
+
+.genero3 button {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    border: 5px solid black;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+}
+
+.genero3 button:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+    border: 2px solid black;
+}
+
+
+.mais-vendidos {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+}
+
+#nomemais {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#nomemais h2 {
+    margin-top: 25px;
+}
+
+
+.conteudos {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudosdentro {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#conteudosdentro div {
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 15%;
+    height: 30%;
+}
+
+.vendido1 {
+    background-image: url(../imagens/conteudos/Mouse.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido1:hover {
+    background-position: center;
+    background-size: 100px;
+}
+
+.vendido2 {
+    background-image: url(../imagens/conteudos/Gabinete.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido2:hover {
+    background-position: center;
+    background-size: 100px;
+}
+
+.vendido3 {
+    background-image: url(../imagens/conteudos/Gabinete.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido3:hover {
+    background-position: center;
+    background-size: 100px;
+}
+
+.vendido4 {
+    background-image: url(../imagens/conteudos/Fone.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido4:hover {
+    background-position: center;
+    background-size: 100px;
+}
+
+.vendido5 {
+    background-image: url(../imagens/conteudos/Fonte.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido5:hover {
+    background-position: center;
+    background-size: 100px;
+}
+
+.vendido6 {
+    background-image: url(../imagens/conteudos/controle.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido6:hover {
+    background-position: center;
+    background-size: 150px;
+}
+
+
+.vendido7 {
+    background-image: url(../imagens/conteudos/dois-joysticks-retro-em-fundo-branco-jogos-competicao-de-videogame-vista-de-cima-minimalismo_175682-20388.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido7:hover {
+    background-position: center;
+    background-size: 150px;
+}
+
+.vendido8 {
+    background-image: url(../imagens/conteudos/teclado-mecanico-gamer.5_f.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendido8:hover {
+    background-position: center;
+    background-size: 150px;
+}
+
+
+#conteudosdentro button {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    border: 5px solid black;
+    border-radius: 3px;
+    width: 60px;
+    height: 35px;
+}
+
+#conteudosdentro button:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+    border: 2px solid black;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    
+}
+
+.pagamento {
+    text-align: center;
+}
+
+.formas {
+    font-weight:bolder;
+}
+
+.pagamento div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(155, 155, 155);
+    border-radius: 2px;
+    margin: 15px;
+    height: 20px;
+}
+
+.localizacao {
+    text-align: center;
+}
+
+.loca {
+    font-weight: bolder;
+}
+
+.mapa {
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 4px;
+}
+
+.contato {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.botoes {
+    margin-top: -15px;
+}
+
+.botoes a {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.whatsapp {
+    color: green;
+}
+
+.instagram{
+    color: rgb(184, 9, 91);
+}
+
+.botoes a:hover {
+    cursor: pointer;
+}
+
+#email {
+    font-size: small; 
+    font-weight: 100px;
+}
+
+#telefone {
+    font-size: small; 
+    font-weight: 100px;
+}
+
+.responsividade-nave {
+    display: none;
+}
+
+.carousel-item {
+    width: 300px;
+    
+}
+
+.carousel-item img {
+    border-radius: 50px;
+}
+
+.carousel-caption {
+    text-shadow: 2px 1px black;
+}
+
+.responsividade-genero:hover {
+    cursor: pointer;
+}
+
+.responsividade-genero {
+    display: none;
+}
+
+/* Cadastro */
+
+#cadastre {
+    width: 350px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#cadastre input {
+    padding: 15px;
+    border-radius: 15px;
+    border-top: none;
+    border-left: 1px solid #4d4d4d;
+    border-right: 1px solid #4b4a4a;
+    background-color: #ffffff;
+}
+
+#password-cadastre {
+    position: absolute;
+    top: 69px;
+    left: 40px;
+}
+
+#email-cadastre {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+#password-cadastre-repetir {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+}
+
+#cadastre input:hover {
+    transform: scale(1.01);
+    background-color: #fdfdfd;
+}
+
+#cadastre input::placeholder {
+    color: black;
+}
+
+#entrar-cadastre {
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1b1b1b;
+}
+
+#entrar-cadastre:hover {
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: -3px 3px 5px #acabab;
+}
+
+/* Login */
+
+.login {
+    width: 350px;
+    height: 400px;
+    background-color: #2c2c2c;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.login h1 {
+    position: absolute;
+    top: 35px;
+    left: 140px;
+    font-size: 25px;
+    color: white;
+}
+
+.login input {
+    padding: 15px;
+    border-radius: 15px;
+    border-top: none;
+    border-left: 1px solid #4d4d4d;
+    border-right: 1px solid #4b4a4a;
+    background-color: #ffffff;
+}
+
+.login input::placeholder {
+    color: black;
+}
+
+#email-login {
+    position: absolute;
+    top: 59px;
+    left: 40px;
+}
+
+#password-login {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+.login input:hover {
+    transform: scale(1.01);
+    background-color: #fdfdfd;
+}
+
+#entrar-login {
+    position: absolute;
+    top: 290px;
+    left: 140px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1b1b1b;
+}
+
+#entrar-login:hover {
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: -3px 3px 5px #acabab;
+}
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+    #conteudosdentro button {
+        width: 50px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .vendido1, .vendido2, .vendido3, .vendido4, .vendido5, .vendido6, .vendido7, .vendido8 {
+        background-position: center;
+        background-size: 100px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    .genero1, .genero2, .genero3 {
+        background-size: 200px;
+        border-radius: 30px;
+    }
+
+    .genero1:hover, .genero2:hover, .genero3:hover {
+        background-size: 195px;
+        border-radius: 55px;
+    }
+
+    .genero1 button, .genero2 button, .genero3 button {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    
+    .vendido1, .vendido2, .vendido3, .vendido4, .vendido5, .vendido6, .vendido7, .vendido8 {
+        background-position: center;
+        background-size: 50px;
+    }
+
+    .vendido1:hover, .vendido2:hover, .vendido3:hover, .vendido4:hover, .vendido5:hover, .vendido6:hover, .vendido7:hover, .vendido8:hover {
+        background-position: center;
+        background-size: 60px;
+    }
+
+    #conteudosdentro button {
+        margin-top: 100px;
+        width: 40px;
+        height: 25px;
+    }
+    
+
+    .mais-vendidos {
+        margin: 0;
+    }
+
+    .vendido6, .vendido7 {
+        display: none;
+    }
+
+    #email {
+        font-size: 8.5px;
+    }
+
+    #telefone {
+        font-size: 8.5px;
+    }
+
+    #cadastre {
+        left: 20%;
+    }
+
+    .login {
+        left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .nave {
+        height: 50px;
+    }
+
+    .responsividade-nave {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+    
+    .pesq {
+        display: none;
+    }
+
+    .carrinho {
+        display: flex;
+        justify-content: end;
+        margin-top: 5px;
+    }
+
+    .imagens {
+        display: none;
+    }
+
+    .genero1, .genero2, .genero3 {
+        width: 900px;
+        height: 900px;
+    }
+
+    .responsividade-genero {
+        display: block;
+    }
+
+    .botoes {
+        margin-top: -10px;
+    }
+
+    .mapa {
+        display: inline-block;
+    }
+
+    #mapagoogle {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    #cadastre {
+        left: 10%;
+    }
+
+    .login {
+        left: 10%;
+    }
+
+}
